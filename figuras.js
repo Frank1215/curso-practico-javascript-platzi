@@ -66,8 +66,8 @@ console.groupEnd();
 
 //Aqui interactuamos con el HTML
 function CalcPerimeCuadrado (){
-    const value = $('#inputCuadrado').val();
-    //const input = document.getElementById ('inputCuadrado');
+    //const value = $('#inputCuadrado').val();
+    const value = document.getElementById ('inputCuadrado').value;
     //const value = input.value;
     
     const perimetro = perimetroCuadrado(value);
